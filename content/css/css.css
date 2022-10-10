@@ -8,23 +8,24 @@ html, body {
     height: 100%;
 }
 
-#upper-corner, #lower-corner {
+#upper-corner {
     position: absolute;
     width: 0;
     height: 0;
-    border-style: solid;
-}
-
-#upper-corner {
     top: 0;
     left: 0;
+    border-style: solid;
     border-width: 200px 50px 0 0;
     border-color: #ff6840 transparent transparent transparent;
 }
 
 #lower-corner {
-    bottom: 0;
-    right: 0;
+    position: relative;
+    top: -200px;
+    margin-bottom: -200px;
+    float: right;
+    width: 50px;
+    border-style: solid;
     border-width: 0 0 200px 50px;
     border-color: transparent transparent #263038 transparent;
 }
