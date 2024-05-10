@@ -1,2 +1,2 @@
-# doubleplus web pages
-Content of https://double.plus/
+# The doubleplus homepage
+A static content of the [double.plus](https://double.plus/) website.
