@@ -1,2 +1,2 @@
 #!/bin/sh
-rsync -avh content/ bruta:/var/www/doubleplus/subdomains/www
+rsync -avh content/ bruta:/var/www/doubleplus/subdomains/homepage
